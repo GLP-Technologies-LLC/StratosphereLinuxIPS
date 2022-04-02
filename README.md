@@ -87,7 +87,8 @@ The easiest way to run Slips is inside a docker. Current version of Slips docker
         ./slips.py -c slips.conf -i eno1 -p
 
 
-## If you want to run Slips locally on bare metal
+## If you want to run Slips natively on Linux
+
 The easiest way is to use [conda](https://docs.conda.io/en/latest/) for Python environment management. 
 Note that if you want to analyze PCAPs, you need to have either `zeek` or `bro` installed. Check [slips.py](slips.py) and usage of `check_zeek_or_bro` function.
 Slips also needs Redis for interprocess communication, you can either install Redis on bare metal and run `redis-server --daemonize yes` or you can use docker version
@@ -105,7 +106,7 @@ conda activate slips
 
 You can now put pcap files or other flow files in the ./dataset/ folder and analyze them
 
-## Slips in Blackhat 
+## Slips in BlackHat 
 
 Check out Slips presentation in Blackhat Arsenal 2021 [here](https://mega.nz/file/EAIjWA5D#DoYhJknH1hpbqfS2ayVLwA7ewNT50jFQb7S3dVAKPko). 
 
@@ -114,9 +115,10 @@ Check out Slips presentation in Blackhat Arsenal 2021 [here](https://mega.nz/fil
 
 **Founder:** Sebastian Garcia. sebastian.garcia@agents.fel.cvut.cz, eldraco@gmail.com. 
 
-**Main authors:** Sebastian Garcia, Kamila Babayeva, Ondrej Lukas, Alya Gomaa
+**Main authors:** Sebastian Garcia, Alya Gomaa, Kamila Babayeva
 
 **Contributors:**
+- Ondrej Lukas
 - Veronica Valeros
 - Frantisek Strasak
 - Dita Hollmannova
