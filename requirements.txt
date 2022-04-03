@@ -13,7 +13,7 @@ colorama==0.4.4
 Keras
 validators==0.18.2
 ipwhois==1.2.0
-matplotlib==3.1.2
+matplotlib
 recommonmark==0.7.1
 scikit_learn==0.24.2
 slackclient==2.9.3
